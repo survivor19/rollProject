@@ -9,9 +9,9 @@
 </head>
 <body>
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">Blog</a>
-    <a href="#contact">Items</a>
+    <a href="index.html" class="active">Home</a>
+    <a href="#blog">Blog</a>
+    <a href="#items">Items</a>
     <div class="dropdown">
       <button class="dropbtn">Dropdown 
         <i class="fa fa-caret-down"></i>
@@ -22,7 +22,7 @@
         <a href="#">Link 3</a>
       </div>
     </div> 
-    <a href="#about">About</a>
+    <a href="about.html">About</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="TopNavFunc()">&#9776;</a>
   </div>
     <!-- Responsive Top Navigation & Footer -->
@@ -31,7 +31,6 @@
     <p>We make rolling projects here</p>
     <!-- Resize the browser window to see how it works.
     Hover over the dropdown button to open the dropdown menu. -->
-  </div>
   <footer>
     <div class="content">
       <div class="top">
@@ -79,15 +78,6 @@
       </div>
     </div>
   </footer>
-  <script>
-    function TopNavFunc() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-        x.className += " responsive";
-      } else {
-        x.className = "topnav";
-      }
-    }
-  </script>
+  <script src="main.js"></script>
 </body>
 </html>

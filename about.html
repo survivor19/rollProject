@@ -1,8 +1,79 @@
 <!DOCTYPE html>
-<html>
-    <head><title>About</title></head>
-    <body>
-        <h1>About</h1>
-        <p>This contains About Us Page.</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> About </title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+</head>
+<body>
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="#blog">Blog</a>
+    <a href="#items">Items</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div> 
+    <a href="about.html">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="TopNavFunc()">&#9776;</a>
+  </div>
+  <h1>About</h1>
+  <p>This contains About Us Page.</p>
+  <footer>
+    <div class="content">
+      <div class="top">
+        <div class="logo-details">
+          <i class="fa-regular fa-face-laugh-beam"></i>
+          <span class="logo_name">Roll Project</span>
+        </div>
+        <div class="media-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="link-boxes">
+        <ul class="box">
+          <li class="link_name">Reach Us</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Get started</a></li>
+        </ul>
+        <ul class="box">
+          <li class="link_name">Our Products</li>
+          <li><a href="#">Clothes</a></li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Accessories</a></li>
+          <li><a href="#">Utensils</a></li>
+        </ul>
+        <ul class="box input-box">
+          <li class="link_name">Subscribe Us</li>
+          <li><input type="text" placeholder="Enter your email"></li>
+          <li><input type="button" value="Subscribe"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-details">
+      <div class="bottom_text">
+        <span class="copyright_text"> Copyright © 2020 <a href="#"> Roll Project </a>All rights reserved</span>
+        <span class="policy_terms">
+          <a href="#">Privacy policy</a>
+          <a href="#">Terms & condition</a>
+        </span>
+      </div>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
 </html>
