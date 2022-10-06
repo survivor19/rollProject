@@ -8,6 +8,30 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
 </head>
 <body>
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">Blog</a>
+    <a href="#contact">Items</a>
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+      </div>
+    </div> 
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="TopNavFunc()">&#9776;</a>
+  </div>
+    <!-- Responsive Top Navigation & Footer -->
+    <h1>Welcome to Role Project</h1>
+    <p><b>Roll Project:</b></p>
+    <p>We make rolling projects here</p>
+    <!-- Resize the browser window to see how it works.
+    Hover over the dropdown button to open the dropdown menu. -->
+  </div>
   <footer>
     <div class="content">
       <div class="top">
@@ -55,5 +79,15 @@
       </div>
     </div>
   </footer>
+  <script>
+    function TopNavFunc() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 </html>
