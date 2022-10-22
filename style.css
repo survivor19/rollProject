@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   body{
@@ -11,6 +11,7 @@
     width: 100%;
     background: #FFFFFF;
   }
+  
   
   .topnav {
     overflow: hidden;
@@ -138,6 +139,35 @@
     color: #4267B2;
     background: #fff;
   }
+  .top .media-icons a:nth-child(1):hover{
+    border-color:rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
+  .top .media-icons a:nth-child(1){
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .top .media-icons a:nth-child(1):after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 01px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .top .media-icons a:nth-child(1):hover{
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  
+  .top .media-icons a:nth-child(1):hover:after {
+    opacity: 1;
+    right: 10px;
+  }
   /* Twitter */
   .top .media-icons a:nth-child(2){
     background: #1DA1F2;
@@ -145,6 +175,35 @@
   .top .media-icons a:nth-child(2):hover{
     color: #1DA1F2;
     background: #fff;
+  }
+  .top .media-icons a:nth-child(2):hover{
+    border-color:rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
+  .top .media-icons a:nth-child(2){
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .top .media-icons a:nth-child(2):after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 01px;
+    right: -2px;
+    transition: 0.3s;
+  }
+  
+  .top .media-icons a:nth-child(2):hover{
+    padding-right: 25px;
+    padding-left:4px;
+  }
+  
+  .top .media-icons a:nth-child(2):hover:after {
+    opacity: 1;
+    right: 10px;
   }
   /* Instagram */
   .top .media-icons a:nth-child(3){
@@ -154,6 +213,35 @@
     color: #E1306C;
     background: #fff;
   }
+  .top .media-icons a:nth-child(3):hover{
+    border-color:rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
+  .top .media-icons a:nth-child(3){
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .top .media-icons a:nth-child(3):after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: -1px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .top .media-icons a:nth-child(3):hover{
+    padding-right: 24px;
+    padding-left:4px;
+  }
+  
+  .top .media-icons a:nth-child(3):hover:after {
+    opacity: 1;
+    right: 10px;
+  }
   /* LinkedIn */
   .top .media-icons a:nth-child(4){
     background: #0077B5;
@@ -162,6 +250,35 @@
     color: #0077B5;
     background: #fff;
   }
+  .top .media-icons a:nth-child(4):hover{
+    border-color:rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
+  .top .media-icons a:nth-child(4){
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .top .media-icons a:nth-child(4):after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 01px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .top .media-icons a:nth-child(4):hover{
+    padding-right: 24px;
+    padding-left:4px;
+  }
+  
+  .top .media-icons a:nth-child(4):hover:after {
+    opacity: 1;
+    right: 10px;
+  }
   /* Youtube */
   .top .media-icons a:nth-child(5){
     background: #FF0000;
@@ -169,6 +286,35 @@
   .top .media-icons a:nth-child(5):hover{
     color: #FF0000;
     background: #fff;
+  }
+  .top .media-icons a:nth-child(5):hover{
+    border-color:rgb(255, 255, 255);
+    background-color: #ffffff;
+  }
+  .top .media-icons a:nth-child(5){
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .top .media-icons a:nth-child(5):after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: -1px;
+    right: -20px;
+    transition: 0.3s;
+  }
+  
+  .top .media-icons a:nth-child(5):hover{
+    padding-right: 24px;
+    padding-left:2px;
+  }
+  
+  .top .media-icons a:nth-child(5):hover:after {
+    opacity: 1;
+    right: 10px;
   }
   footer .content .link-boxes{
     width: 100%;
@@ -241,7 +387,8 @@
     transition: all 0.4s ease;
   }
   .input-box input[type="button"]:hover{
-    opacity: 1;
+    background-color:rgb(128, 249, 128);
+    opacity: 10 ;
   }
   footer .bottom-details{
     width: 100%;
